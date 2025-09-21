@@ -1,0 +1,14 @@
+{22,11,-6,19,45,34,20}
+Steps:
+
+step 1: tracker till what we need to transverse < n-1( 6)
+step 2:start transverse from i=0 to lastunsorted index n-1-j
+step 3: compare i , i+1
+step 4 : swap if i>i+1
+Step 5: repeat step 2 to 4 // largest will be bubbled in end
+Step 5: repeat step 1 to 5
+
+##in place algorithm
+##order is preserved if duplicate elements
+##time complexity O(n^2)
+##suitable if data set is small or educational purpose
