@@ -12,7 +12,7 @@ public class sortArrayIntegers {
 
     public static void sortArr(int[] arr){
         //outer loop to track lastHighest number in array
-        for(int i=0;i<arr.length;i++){
+        for(int i=0;i<arr.length-1;i++){
             //transverse startIndex to lastUnsorted index
             for(int j=0;j<arr.length-1-i;j++){
                 if (arr[j] > arr[j+1]) {
